@@ -1,0 +1,89 @@
+/* EStilização global, ira se aplicar a todos os estilos */
+body {
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+background: linear-gradient(135deg, #2b7cff, #00c6ff);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+/* Estilização dos cards */
+.card {
+background: #fff;
+border-radius: 10px;
+padding: 30px;
+width: 350px;
+box-shadow: 0px 6px 12px rgba(0,0,0,0.2);
+text-decoration: none;
+}
+
+.card h2 {
+text-align: center;
+margin-top: 0;
+color: #00aff5;
+align-items: center;
+}
+
+label {
+display: block;
+margin-top: 12px;
+font-weight: 600;
+color: #000000;
+text-shadow: 20px;
+}
+
+input {
+width: 100%;
+padding: 10px;
+margin-top: 4px;
+border-radius: 6px;
+border: 1px solid #1688a5;
+box-sizing: border-box;
+outline: none;
+transition: border 0.2s;
+}
+
+input:focus {
+border: 2px solid #2b7cff;
+animation: 1s;
+
+}
+
+.actions {
+margin-top: 16px;
+display: flex;
+gap: 10px;
+justify-content: space-between;
+color: red;
+}
+
+.btn {
+flex: 1;
+padding: 10px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+font-weight: bold;
+align-items: center;
+color: #000000;
+}
+
+.btn-primary {
+background-color: #2b7cff;
+color: white;
+}
+
+.btn-primary:hover {
+background-color: #005ce6;
+}
+
+.btn-secondary {
+background-color: #f0f0f0;
+color: #333;
+}
+
+.btn-secondary:hover {
+background-color: #ddd;
+}
