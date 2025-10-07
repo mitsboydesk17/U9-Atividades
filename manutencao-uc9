@@ -1,1 +1,90 @@
+Aqui iremos corrigir todos os erros rreferente a atividade 7
 
+🃏
+Códigos com Erro para a
+Atividade Versionamento com
+Git
+1. Python Desktop Simples
+Desafio 1
+def dividir(a, b):
+ return a / b
+a = 10
+b = 0 
+resultado = dividir(a, b)
+print(f"O resultado da divisão é: {resultado}")
+Desafio 2
+nome_usuario = "Professor(a)"
+Códigos com Erro para a Atividade Versionamento com Git 1
+print("Olá, " + nome_usuar)
+Desafio 3
+frutas = [maçã, "banana", "laranja"]
+print(f"Minhas frutas favoritas: {frutas}")
+2. Web (HTML, CSS e JavaScript)
+Desafio 4
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Bug de Tag</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1 class="titulo">Página com Bug de Estrutura</h1>
+ 
+ <p>Este é o primeiro parágrafo. </pa>
+ <div id="status">Verificando JS...</div>
+ <script src="script.js"></script>
+</body>
+</html
+Desafio 5
+.titulo {
+ font-size: 24px;
+ color: blue
+ background-color: yellow;
+ padding: 10px;
+Códigos com Erro para a Atividade Versionamento com Git 2
+ border: 1px solid black;
+}
+Desafio 6
+let valor = 5;
+let elemento = document.getElementById("status");
+if (valor = 10) {
+ elemento.innerText = "A condição é sempre verdadeira! (Bug de Lógica)";
+} else {
+ elemento.innerText = "A condição é falsa.";
+}
+3. Django (Python Web Framework)
+Desafio 7
+# views.py no app Django
+# Tarefa: Descomentar a linha de importação para que HttpResponse funcion
+e.
+# from django.http import HttpResponse
+def saudacao(request):
+ return HttpResponse("Olá do Django!")
+Desafio 8
+from django.urls import path
+from . import views
+def outra_view(request):
+ 
+Códigos com Erro para a Atividade Versionamento com Git 3
+ pass
+urlpatterns = [
+ path('ola/', views.saudacao) 
+ path('outra/', views.outra_view),
+]
+4. Kivy (Mobile com Python)
+Desafio 9
+# Tarefa: Corrigir o nome da classe 'Ap' para 'App' na linha 1 e 5.
+from kivy.app import Ap
+from kivy.uix.label import Label
+class MinhaApp(Ap):
+ def build(self):
+ return Label(text='Kivy App com Bug de Importação')
+MinhaApp().run()
+Desafio 10
+from kivy.app import App
+from kivy.uix.button import Button
+class OutraApp(App):
+ def build(self)
+ Button(text='Corrija o Retorno!').run() 
+OutraApp().run()
+Códigos com Erro para a Atividade Versionamento com Git 4
